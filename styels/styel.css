@@ -46,6 +46,7 @@ color: rgb(255, 255, 255);
     font-weight: 800;
     color: rgb(230, 83, 60);
     margin-left: 190px;
+    margin-left: 80px;
 }
 .btn{
     font-size: 1.2rem;
@@ -151,4 +152,46 @@ div img{
     width: 1060px;
     margin: 0 auto;
    display: flex;
+}
+.scend-section{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.sns-div{
+    display: flex;
+    background-color: rgb(34, 34, 34);
+    width: 1060px;
+height: 371px;
+margin: 0 auto;
+}
+
+.contant-main{
+    font-size: 3rem;
+    font-weight: 900;
+    color: rgb(255, 255, 255);
+    
+}
+.contant-discription{
+    font-size: 1rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+}
+.main-img img{
+    width: 366px;
+    height: 312px;
+    margin-top: 20px;
+    margin-left: 100px;
+
+}
+.btn-3{
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    background-color: rgb(230, 83, 60);
+    padding: 16px 40px 16px 40px;
+    border-radius: 25px;
+    border: none;
+}
+.containar-div{
+    margin-left: 27px;
 }
