@@ -1,9 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
-
-@media screen  and (max-width: 576px) {
-    .contant{
-        
-        display: none;
-    }
+body{
+    font-family: "Inter", sans-serif;
+    margin: 0;
+    padding: 0;
     
+}
+
+
+header{
+    max-width: 1440px;
+    /* background-color: black; */
+    background-color: rgb(0, 0, 0);
+
+}
+
+.display-flex{
+    display: flex;
+}
+.nav-bar {
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+ul li{
+    list-style: none;
+    
+}
+.nav-ancor{
+    align-items: center;
+}
+ul li a{
+    text-decoration: none;
+    margin-left: 35px;
+    font-size: 1.2rem;
+    font-weight: 400;
+color: rgb(255, 255, 255);
+    
+}
+.nav-ancor{
+    margin-right: 194px;
+}
+
+.navbar-contant{
+    font-size: 2.25rem;
+    font-weight: 800;
+    color: rgb(230, 83, 60);
+    margin-left: 190px;
+}
+.btn{
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    background: rgb(230, 83, 60);
+    padding: 10px;
+    border-radius: 15px;
+}
+.banner{
+    display: flex;
+    width: 1060px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+.banner-content{
+    width: 520px;
+    
+}
+.banner-containar{
+    font-size: 4.9rem;
+    font-weight: 900;
+    color: rgb(255, 255, 255);
+}
+.banner-discription{
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+}
+.banner-img img{
+    width: 349px;
+    height: 580px;
+}
+
+
+.btn-1{
+    font-size: 1.2rem;
+    font-weight: 600;
+    background: rgb(230, 83, 60);
+    color: rgb(255, 255, 255);
+    padding: 16px 40px 16px 40px;
+    border-radius: 30px;
+    border: none;
+    
+}
+.btn-2{
+    font-size: 1.2rem;
+    font-weight: 600;
+    
+    color: rgb(255, 255, 255);
+    padding: 16px 40px 16px 40px;
+    border-radius: 30px;
+    background-color: black;
+    border: 1px solid white;
+    margin-left: 20px;
+    
+
 }
