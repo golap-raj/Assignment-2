@@ -104,3 +104,51 @@ color: rgb(255, 255, 255);
     
 
 }
+main{
+    background-color: rgb(0, 0, 0);
+   
+   
+    
+
+
+}
+.main-containar{
+    text-align: center;
+}
+.head-contant{
+    font-size: 3rem;
+    font-weight: 900;
+    color: rgb(255, 255, 255);
+}
+.main-discription{
+    font-size: 1rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+}
+.same-tag{
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-right: 80px;
+    
+    
+}
+.same-class{
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+    margin-right: 80px;
+    
+     
+}
+div img{
+    border: 1px solid black;
+    border-radius: 90px;
+}
+.main-banner-img{
+    width: 1060px;
+    margin: 0 auto;
+   display: flex;
+}
