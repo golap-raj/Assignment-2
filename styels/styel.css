@@ -234,7 +234,3 @@ margin: 0 auto;
     font-weight: 400;
     color: rgba(255, 255, 255, 0.5);
 }
-.meet-img{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-}
