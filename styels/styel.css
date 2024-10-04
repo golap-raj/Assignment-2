@@ -171,48 +171,36 @@ background-color: rgba(255, 255, 255, 0.1);
 }
 
 .fitst-section{
-    margin-bottom: 100px;
-}
-.main-containar{
-    text-align: center;
-}
-.head-contant{
-    font-size: 3rem;
-    font-weight: 900;
-    color: rgb(255, 255, 255);
-}
-.main-discription{
-    font-size: 1rem;
-    font-weight: 400;
-    color: rgba(255, 255, 255, 0.5);
-}
-.same-tag{
-    font-size: 1.1rem;
-    font-weight: 600;
-    color: rgb(255, 255, 255);
-    text-align: center;
-    margin-right: 80px;
-    
-    
-}
-.same-class{
-    font-size: 14px;
-    font-weight: 400;
-    color: rgba(255, 255, 255, 0.5);
-    text-align: center;
-    margin-right: 80px;
-    
-     
-}
-.main-banner-img img{
-    border: 1px solid black;
-    border-radius: 90px;
-    object-fit: cover;
-}
-.main-banner-img{
     width: 1060px;
     margin: 0 auto;
-   display: flex;
+}
+
+.jim-banner-man{
+    /* display: flex; */
+    width: 1060px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    
+}
+.img-class img{
+    border-radius: 100px;
+}
+.same{
+    font-size: 18px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    margin-left: 25px;
+    width: 231px;
+    justify-items: center;
+}
+.same-same{
+    font-size: 14px;
+font-weight: 400;
+  color: rgba(255, 255, 255, 0.5);
+  margin-left: 25px;
+  width: 231px;
+  
 }
 .scend-section{
     max-width: 1440px;
@@ -363,4 +351,39 @@ margin: 0 auto;
     font-weight: 400;
     color: rgba(255, 255, 255, 0.5);
     text-align: center;
+}
+
+@media screen and (max-width: 576px) {
+
+    .nav-ancor{
+        display: none;
+    }
+    .banner-containar{
+        font-size: 1.25re;
+        width: 285px;
+        margin-left: 30px;
+        /* margin-bottom: 28px; */
+       
+    }
+    .banner-batton{
+        width: 352px;
+        height: 54px;
+        align-items: center;
+        /* margin-top: 50px; */
+    }
+    .jim-banner-man{
+        grid-template-columns: repeat(1, 1fr);
+        justify-items: center;
+        align-items: center;
+        width: 338px;
+        margin-top: 58px;
+        
+    }
+    .banner{
+        flex-direction: column;
+        margin-right: 60px;
+    }
+    .scend-section{
+       flex-direction: column;
+    }
 }
