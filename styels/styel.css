@@ -219,3 +219,22 @@ margin: 0 auto;
 .jim-contant-discrip{
     margin-left: 64px;
 }
+.meet-div{
+   
+    width: 364px;
+    margin: 0 auto;
+}
+.meet-contant{
+    font-size: 3rem;
+    font-weight: 900;
+    color: rgb(255, 255, 255);
+}
+.meet-driscription{
+    font-size: 1rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+}
+.meet-img{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
