@@ -155,9 +155,10 @@ main{
     
      
 }
-div img{
+.main-banner-img img{
     border: 1px solid black;
     border-radius: 90px;
+    object-fit: cover;
 }
 .main-banner-img{
     width: 1060px;
@@ -219,6 +220,11 @@ margin: 0 auto;
 .jim-contant-discrip{
     margin-left: 64px;
 }
+.meet-our-team{
+    width: 1060px;
+    margin:  0 auto;
+
+}
 .meet-div{
    
     width: 364px;
@@ -233,4 +239,65 @@ margin: 0 auto;
     font-size: 1rem;
     font-weight: 400;
     color: rgba(255, 255, 255, 0.5);
+}
+.meet-banner{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+   border-radius: 10px;
+  
+}
+
+.meet-banner img{
+    object-fit: cover;
+    width: 100%;
+    height: 272px;
+    display: block;
+    border-radius: 10px;
+    
+    /* aspect-ratio: 3/2;
+    object-fit: cover; */
+}
+.contant{
+    color: rgb(230, 83, 60);
+    font-size: 4.3rem;
+    font-weight: 800;
+}
+.foot-driskiption{
+    font-size: 1rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+}
+.contsant-2{
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    font-size: 2rem;
+}
+.same-same{
+    font-size: 1.5rem;
+    color: rgba(255, 255, 255, 0.5);
+    font-weight: 400;
+}
+.footetr{
+    display: flex;
+    justify-content: space-evenly;
+    max-width: 1440px;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.1);
+   margin-top: 80px;
+  
+}
+.foot-containar{
+    width: 443px;
+    /* margin-right: 100px; */
+}
+.foot-contant{
+    width: 181px;
+    /* margin-right: 100px; */
+}
+.foot{
+    width: 165px;
+    margin-left: 50px;
 }
