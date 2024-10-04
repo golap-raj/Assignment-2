@@ -21,7 +21,9 @@ header{
 }
 .nav-bar {
     justify-content: space-between;
-    margin-bottom: 50px;
+    /* margin-bottom: 50px; */
+    max-height: 1060px;
+    margin: 0 auto;
 }
 ul li{
     list-style: none;
@@ -79,7 +81,7 @@ color: rgb(255, 255, 255);
 .banner-discription{
     font-size: 1.2rem;
     font-weight: 400;
-    color: rgba(255, 255, 255, 0.5);
+    color: rgba(255, 255, 255, 0.427);
 }
 .banner-img img{
     width: 349px;
@@ -87,15 +89,46 @@ color: rgb(255, 255, 255);
     
 }
 .banner-img{
+    position: relative;
     margin-left: 200px;
 }
 
+/* .card  {
+    width: 193px;
+height: 98px;
+background-color: rgba(255, 255, 255, 0.1);
+   border-radius: 10px;
+   position: absolute;
+   
 
+   
+  
+}
+  .card-contant{
+    font-size: 30px;
+    font-weight: 900;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+.card-dis{
+    font-size: 13px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.65);
+    text-align: center;
+    
+}
+.card-2{
+    width: 193px;
+    height: 98px;
+    background-color: rgba(255, 255, 255, 0.1);
+       border-radius: 10px;
+       position: absolute;
+} */
 .btn-1{
     font-size: 1.2rem;
     font-weight: 600;
     background: rgb(230, 83, 60);
-    color: rgb(255, 255, 255);
+    color: .cardrgb(255, 255, 255);
     padding: 16px 40px 16px 40px;
     border-radius: 30px;
     border: none;
@@ -114,13 +147,7 @@ color: rgb(255, 255, 255);
     
 
 }
-main{
-    /* background-color: rgb(0, 0, 0); */
-   
-    
 
-
-}
 .fitst-section{
     margin-bottom: 100px;
 }
@@ -256,6 +283,7 @@ margin: 0 auto;
     height: 272px;
     display: block;
     border-radius: 10px;
+   
     
     /* aspect-ratio: 3/2;
     object-fit: cover; */
