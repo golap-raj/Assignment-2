@@ -49,6 +49,9 @@ color: rgb(255, 255, 255);
     margin-left: 190px;
     margin-left: 80px;
 }
+.banner-batton{
+    display: flex;
+}
 .btn{
     font-size: 1.2rem;
     font-weight: 600;
@@ -81,6 +84,10 @@ color: rgb(255, 255, 255);
 .banner-img img{
     width: 349px;
     height: 580px;
+    
+}
+.banner-img{
+    margin-left: 200px;
 }
 
 
@@ -198,4 +205,17 @@ margin: 0 auto;
 }
 .containar-div{
     margin-left: 27px;
+}
+.jim-containar{
+    font-size: 3rem;
+    font-weight: 900;
+    color: rgb(255, 255, 255);
+}
+.jim-driscription{
+    font-size: 1rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+}
+.jim-contant-discrip{
+    margin-left: 64px;
 }
