@@ -283,6 +283,7 @@ margin: 0 auto;
 .footetr{
     display: flex;
     justify-content: space-evenly;
+    
     max-width: 1440px;
     margin: 0 auto;
     background-color: rgba(255, 255, 255, 0.1);
@@ -300,4 +301,16 @@ margin: 0 auto;
 .foot{
     width: 165px;
     margin-left: 50px;
+}
+.under-line{
+    border: 1px solid rgba(255, 255, 255, 0.1);
+   width: 1060px;
+   margin: 0 auto;
+   margin-top: 20px;
+}
+.last-discription{
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+    text-align: center;
 }
