@@ -453,8 +453,13 @@ footer {
     }
     .banner-discription{
         width: 274px;
+        font-size: 1rem;
 
     }
+    .banner-batton{
+        width: 100%;
+    }
+   
 
     .jim-banner-man{
         grid-template-columns: repeat(1, 1fr);
@@ -540,6 +545,7 @@ footer {
     font-size: 1.5rem;
     color: rgba(255, 255, 255, 0.5);
     font-weight: 400;
+    margin-left: 0;
 }
 
 footer {
@@ -572,5 +578,19 @@ flex-direction: column;
     width: 100%;
     margin-left: 0px;
 }
+.under-line {
+    
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    width: 354px;
+    margin: 0 auto;
+}
+
+.last-discription {
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+}
+
 
 }
